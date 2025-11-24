@@ -1,0 +1,68 @@
+###############################
+# QUARTUS
+###############################
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+simulation/
+*.sopcinfo
+*.qws
+*.bak
+*.rpt
+*.done
+*.jdi
+
+# Arquivos de cache e temporários
+*.ddb
+*.ppf
+*.pof
+*.sof
+*.cdf
+*.cmp
+
+###############################
+# MODELSIM
+###############################
+work/
+transcript
+vsim.wlf
+*.wlf
+*.mti
+modelsim.ini
+
+###############################
+# NIOS II
+###############################
+*.elf
+*.objdump
+*.map
+*.lst
+*.bin
+*.hex
+
+###############################
+# COMPILAÇÃO E TEMPORÁRIOS
+###############################
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+###############################
+# SISTEMA OPERACIONAL
+###############################
+.DS_Store
+Thumbs.db
+
+###############################
+# PYTHON
+###############################
+__pycache__/
+*.pyc
+
+###############################
+# VSCode
+###############################
+.vscode/
